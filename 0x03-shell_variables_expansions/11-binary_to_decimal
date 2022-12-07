@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo "$((2#$BINARY))"
+=======
+echo "$((2#BINARY))"
+>>>>>>> 6d1e50f835ef017a4b85da5f8ff37b85b84f96bc
