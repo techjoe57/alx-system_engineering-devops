@@ -7,12 +7,9 @@
 i=0
 while [ $i -lt 10 ]
 do
-  if [ $i -eq 3 ]
-   then
-    echo "bad luck"
-        elif [ $i -eq 7 ];
+    if [ $i -eq 8 ];
          then
-          echo "good luck"
+          echo "Hi"
             else
                 echo "Best School"
                 fi
