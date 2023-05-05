@@ -4,7 +4,7 @@
 
 filename=school
 
-if [[ -f "$filename" ] || [ -d "$filename" ]];
+if [[ -f "$filename" || -d "$filename" ]];
 then
     echo "$filename file exists"
         if [ -s "$filename" ];
@@ -13,7 +13,7 @@ then
                 else
                     echo "$filename file is empty"
                     fi
-                        if [ -f "$filename" ];
+                        if [ -f "$filename" ]
                         then
                             echo "$filename is a regular file"
                             fi
