@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Bash script that stops 4-to_infinity_and_beyond
+#process using kill
+
+procno=$(pidof 4-to_infinity_and_beyond)
+
+for i in $procno;
+do
+    kill "$i"
+done
