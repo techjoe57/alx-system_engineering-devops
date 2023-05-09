@@ -2,9 +2,9 @@
 #Bash script that:
 #Creates the file /var/run/myscript.pid
 #Displays To infinity and beyond indefinitely
-#Displays I hate the kill command
-#Displays Y U no love me?!
-#Deletes the file /var/run/myscript.pid 
+#Displays I hate the kill command, SIGTERM signal
+#Displays Y U no love me?!, SIGINT signal
+#Deletes the file /var/run/myscript.pid, SIQUIT signal
 
 cleanup(){
     rm -f /var/run/myscript.pid
