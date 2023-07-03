@@ -15,7 +15,7 @@ printf %s "server {
     root   /etc/nginx/html;
     index  index.html index.htm;
     location /redirect_me {
-        return 301 https://stackoverflow.com/;
+        return 301 https://facebook.com/;
     }
 }" > /etc/nginx/sites-available/default
 
